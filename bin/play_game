@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python src/play_game.py
