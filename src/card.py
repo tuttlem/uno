@@ -2,15 +2,15 @@
 class Card(object):
     '''Defines a single card'''
 
-    COLOURS = {	
-        0: 'Omni', 
-        1: 'Red', 
-        2: 'Green', 
-        3: 'Blue', 
+    COLOURS = {
+        0: 'Omni',
+        1: 'Red',
+        2: 'Green',
+        3: 'Blue',
         4: 'Yellow'
     }
 
-    VALUES = { 
+    VALUES = {
         0: 'Naught',
         1: 'One',
         2: 'Two',
@@ -25,7 +25,7 @@ class Card(object):
         11: 'Reverse',
         12: 'Draw Two',
         13: 'Wild',
-        14: 'Wild Draw Four' 
+        14: 'Wild Draw Four'
     }
 
     def __init__(self, value, colour):
